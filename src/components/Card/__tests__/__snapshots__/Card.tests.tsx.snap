@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="bg-white rounded-lg md:rounded-2xl lg:rounded-3xl relative font-courier w-1/6 min-w-[103px] max-w-[192px] aspect-[2.2/3]"
+    >
+      <div
+        class="font-bold leading-none relative w-fit text-4xl md:text-6xl lg:text-8xl pt-5 pl-5 text-black"
+        data-testid="card-text"
+      >
+        A
+        <img
+          alt="Ace of Clubs"
+          class="absolute min-w-[20px] aspect-[1/1] max-w-[36px] w-1/2 right-0 lg:right-1 lg:-bottom-6"
+          src="Clubs.svg"
+        />
+      </div>
+      <img
+        alt="Ace of Clubs"
+        class="min-w-[48px] max-w-[90px] w-1/2 aspect-[1/1] absolute right-3.5 bottom-3.5 lg:right-6 lg:bottom-6"
+        data-testid="card-symbol"
+        src="Clubs.svg"
+      />
+    </div>
+    <div
+      class="bg-white rounded-lg md:rounded-2xl lg:rounded-3xl relative font-courier w-1/6 min-w-[103px] max-w-[192px] aspect-[2.2/3]"
+    >
+      <div
+        class="font-bold leading-none relative w-fit text-4xl md:text-6xl lg:text-8xl pt-5 pl-5 text-black"
+        data-testid="card-text"
+      >
+        K
+        <img
+          alt="King of Clubs"
+          class="absolute min-w-[20px] aspect-[1/1] max-w-[36px] w-1/2 right-0 lg:right-1 lg:-bottom-6"
+          src="Clubs.svg"
+        />
+      </div>
+      <img
+        alt="King of Clubs"
+        class="min-w-[48px] max-w-[90px] w-1/2 aspect-[1/1] absolute right-3.5 bottom-3.5 lg:right-6 lg:bottom-6"
+        data-testid="card-symbol"
+        src="Clubs.svg"
+      />
+    </div>
+    <div
+      class="bg-white rounded-lg md:rounded-2xl lg:rounded-3xl relative font-courier w-1/6 min-w-[103px] max-w-[192px] aspect-[2.2/3]"
+    >
+      <div
+        class="font-bold leading-none relative w-fit text-4xl md:text-6xl lg:text-8xl pt-5 pl-5 text-black"
+        data-testid="card-text"
+      >
+        Q
+        <img
+          alt="Queen of Clubs"
+          class="absolute min-w-[20px] aspect-[1/1] max-w-[36px] w-1/2 right-0 lg:right-1 lg:-bottom-6"
+          src="Clubs.svg"
+        />
+      </div>
+      <img
+        alt="Queen of Clubs"
+        class="min-w-[48px] max-w-[90px] w-1/2 aspect-[1/1] absolute right-3.5 bottom-3.5 lg:right-6 lg:bottom-6"
+        data-testid="card-symbol"
+        src="Clubs.svg"
+      />
+    </div>
+    <div
+      class="bg-white rounded-lg md:rounded-2xl lg:rounded-3xl relative font-courier w-1/6 min-w-[103px] max-w-[192px] aspect-[2.2/3]"
+    >
+      <div
+        class="font-bold leading-none relative w-fit text-4xl md:text-6xl lg:text-8xl pt-5 pl-5 text-black"
+        data-testid="card-text"
+      >
+        J
+        <img
+          alt="Jack of Clubs"
+          class="absolute min-w-[20px] aspect-[1/1] max-w-[36px] w-1/2 right-0 lg:right-1 lg:-bottom-6"
+          src="Clubs.svg"
+        />
+      </div>
+      <img
+        alt="Jack of Clubs"
+        class="min-w-[48px] max-w-[90px] w-1/2 aspect-[1/1] absolute right-3.5 bottom-3.5 lg:right-6 lg:bottom-6"
+        data-testid="card-symbol"
+        src="Clubs.svg"
+      />
+    </div>
+    <div
+      class="bg-white rounded-lg md:rounded-2xl lg:rounded-3xl relative font-courier w-1/6 min-w-[103px] max-w-[192px] aspect-[2.2/3]"
+    >
+      <div
+        class="font-bold leading-none relative w-fit text-4xl md:text-6xl lg:text-8xl pt-5 pl-5 text-black"
+        data-testid="card-text"
+      >
+        3
+        <img
+          alt="3 of Clubs"
+          class="absolute min-w-[20px] aspect-[1/1] max-w-[36px] w-1/2 right-0 lg:right-1 lg:-bottom-6"
+          src="Clubs.svg"
+        />
+      </div>
+      <img
+        alt="3 of Clubs"
+        class="min-w-[48px] max-w-[90px] w-1/2 aspect-[1/1] absolute right-3.5 bottom-3.5 lg:right-6 lg:bottom-6"
+        data-testid="card-symbol"
+        src="Clubs.svg"
+      />
+    </div>
+  </div>
+</div>
+`;

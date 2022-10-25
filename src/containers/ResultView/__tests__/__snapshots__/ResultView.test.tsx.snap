@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result View renders game over text when userWon is false 1`] = `
+<div>
+  <div
+    class="my-4 md:my-0 font-courier w-full text-white flex flex-col items-center"
+  >
+    <div
+      class="w-full flex flex-col items-center"
+      data-testid="lost-text"
+    >
+      <div
+        class="text-5xl md:text-6xl leading-none"
+      >
+        Game Over
+      </div>
+      <div
+        class="text-4xl text-center mt-4"
+      >
+        You lose. 
+        <br />
+        Better luck next time!
+      </div>
+    </div>
+    <button
+      class="border-2 text-yellow-300 border-yellow-300 font-alfa rounded-xl text-2xl px-9 py-2 my-3"
+      data-testid="play-again-button"
+      type="button"
+    >
+      Play Again
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Result View renders winner image when userWon is true 1`] = `
+<div>
+  <div
+    class="my-4 md:my-0 font-courier w-full text-white flex flex-col items-center"
+  >
+    <img
+      alt="Winner"
+      class="z-10 absolute top-36 motion-safe:animate-bounce"
+      data-testid="win-image"
+      src="winner.svg"
+    />
+    <button
+      class="border-2 text-yellow-300 border-yellow-300 font-alfa rounded-xl text-2xl px-9 py-2 my-3"
+      data-testid="play-again-button"
+      type="button"
+    >
+      Play Again
+    </button>
+  </div>
+</div>
+`;
